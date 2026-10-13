@@ -1,15 +1,21 @@
+# Sistema Biblioteca - Python
 
-6. Clica em **Commit changes...** no topo direito
-7. Na janelinha digita: `docs: cria README profissional com instruções`
-8. **Commit changes**
+> Sistema CRUD completo em Python para gerenciamento de livros, com persistência em JSON e tratamento de erros.
 
-### COMMIT 5 - `feat: adiciona funcionalidade extra de busca por titulo`
+### 🚀 Tecnologias
+- Python 3.10+
+- JSON para persistência
+- Tratamento de exceções com try/except
 
-Esse é o último, para fechar 5 commits profissionais.
+### ✨ Funcionalidades
+- [x] Adicionar livro (título, autor, ano)
+- [x] Listar todos os livros
+- [x] Buscar por título
+- [x] Remover livro
+- [x] Salvamento automático em livros.json
 
-1. Abre o `main.py` de novo
-2. Lápis ✏️
-3. Na **linha 1**, antes de tudo, adiciona só isso (não apaga o resto):
-
-```python
-# Autor: Marcelo Buonadio - São Carlos SP - Sistema Biblioteca Python - 2026
+### 💻 Como rodar
+```bash
+git clone https://github.com/JuniorBuona/sistema-biblioteca-python.git
+cd sistema-biblioteca-python
+python main.py
